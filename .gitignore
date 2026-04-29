@@ -1,0 +1,12 @@
+# 不上传原始文稿
+manuscript/original/
+manuscript/working/
+
+# 不上传依赖
+node_modules/
+
+# 常见构建缓存
+.quartz-cache/
+.cache/
+dist/
+public/
