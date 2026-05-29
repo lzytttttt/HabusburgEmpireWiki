@@ -59,6 +59,10 @@ notes: []
 ![费迪南德一世](../assets/images/ferdinand-i.svg){ width="150" title="费迪南德一世 Ferdinand I" }
 ![查理五世](../assets/images/charles-v.svg){ width="150" title="查理五世 Charles V" }
 
+### 1526年哈布斯堡疆域
+
+![哈布斯堡帝国疆域 1526年](../assets/maps/habsburg-1526.svg){ width="600" title="1526年哈布斯堡帝国疆域图" }
+
 ## 哈布斯堡帝国的形成 1526-1648
 
 [费迪南德一世](../People.md)和[马克西米连二世](../People.md)

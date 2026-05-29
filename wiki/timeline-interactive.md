@@ -2,7 +2,7 @@
 
 > 哈布斯堡帝国重大事件时间线（896-1815），基于 TimelineJS 呈现。
 
-<div id="timeline-embed" style="width: 100%; height: 600px;"></div>
+<div id="timeline-embed" style="width: 100%; height: 70vh; min-height: 400px;"></div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {

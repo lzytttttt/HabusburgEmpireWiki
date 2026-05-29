@@ -34,3 +34,10 @@
 | 2026-05-29 | wiki/timeline-interactive.md | 交互式时间线页面：集成 TimelineJS，支持缩放、拖拽、主题颜色区分 | 完成 |
 | 2026-05-29 | wiki/assets/images/ | 历史图片：生成 15 个关键人物 SVG 占位图（鲁道夫一世、查理五世、欧根亲王等） | 完成 |
 | 2026-05-29 | Ch01/Ch04/Ch06/Ch07/Ch09 | 嵌入图片：在 5 个核心章节中嵌入关键人物图片 | 完成 |
+| 2026-05-29 | wiki/Habsburg-Genealogy.md | Mermaid 世系图：创建哈布斯堡家族世系关系图，覆盖鲁道夫一世到弗朗西斯二世 | 完成 |
+| 2026-05-29 | Ch05/Ch07 | Mermaid 关系图：三十年战争因果关系图、开明专制改革措施关系图 | 完成 |
+| 2026-05-29 | wiki/assets/maps/ | 历史地图：创建 1526、1648、1789 三个时期的疆域 SVG 地图 | 完成 |
+| 2026-05-29 | Ch04/Ch05/Ch07 | 嵌入地图：在 3 个核心章节中嵌入疆域变化地图 | 完成 |
+| 2026-05-29 | mkdocs.yml | Mermaid.js 集成：配置 pymdownx.superfences custom_fences 支持 Mermaid 渲染 | 完成 |
+| 2026-05-29 | mkdocs.yml | 导航优化：启用面包屑导航、前后章节导航、分区索引、搜索分词、内容提示 | 完成 |
+| 2026-05-29 | Treaties.md / Habsburg-Genealogy.md | 链接修复：修正 30 处 `\.md` 转义错误链接 | 完成 |

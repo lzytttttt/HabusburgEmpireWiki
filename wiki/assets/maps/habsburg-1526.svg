@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <style>
+      .land { fill: #c8a2c8; stroke: #333; stroke-width: 1; }
+      .habsburg { fill: #8b45a6; stroke: #333; stroke-width: 1.5; }
+      .water { fill: #b3d9ff; stroke: none; }
+      .city { fill: #333; }
+      .city-label { font-size: 11px; fill: #333; font-family: sans-serif; }
+      .title { font-size: 18px; fill: #333; font-weight: bold; font-family: sans-serif; }
+      .legend { font-size: 12px; fill: #333; font-family: sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f5f0"/>
+
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" class="title">哈布斯堡帝国疆域 1526年</text>
+
+  <!-- Simplified European outline -->
+  <!-- Central Europe base -->
+  <path class="land" d="M 200,150 L 250,120 L 350,100 L 450,110 L 550,130 L 600,180 L 620,250 L 600,320 L 550,380 L 500,400 L 450,420 L 400,430 L 350,420 L 300,400 L 250,370 L 220,320 L 200,270 L 190,220 Z"/>
+
+  <!-- Habsburg territories 1526 -->
+  <!-- Austria -->
+  <path class="habsburg" d="M 380,200 L 420,180 L 460,190 L 480,220 L 470,260 L 440,280 L 400,270 L 380,240 Z"/>
+  <text x="430" y="235" text-anchor="middle" class="city-label">奥地利</text>
+
+  <!-- Bohemia -->
+  <path class="habsburg" d="M 350,170 L 400,150 L 440,160 L 450,190 L 420,200 L 380,200 L 350,185 Z"/>
+  <text x="400" y="180" text-anchor="middle" class="city-label">波西米亚</text>
+
+  <!-- Hungary -->
+  <path class="habsburg" d="M 460,220 L 520,200 L 580,220 L 600,270 L 580,320 L 540,340 L 490,330 L 460,300 L 450,260 Z"/>
+  <text x="530" y="275" text-anchor="middle" class="city-label">匈牙利</text>
+
+  <!-- Spain (Habsburg) -->
+  <path class="habsburg" d="M 120,350 L 180,320 L 230,330 L 250,370 L 240,410 L 200,430 L 150,420 L 110,390 Z"/>
+  <text x="180" y="375" text-anchor="middle" class="city-label">西班牙</text>
+
+  <!-- Milan -->
+  <path class="habsburg" d="M 280,270 L 320,250 L 350,260 L 340,290 L 310,300 L 280,290 Z"/>
+  <text x="315" y="278" text-anchor="middle" class="city-label" font-size="9">米兰</text>
+
+  <!-- Cities -->
+  <circle cx="430" cy="220" r="4" class="city"/>
+  <text x="445" y="218" class="city-label">维也纳</text>
+
+  <circle cx="400" cy="165" r="3" class="city"/>
+  <text x="415" y="163" class="city-label" font-size="9">布拉格</text>
+
+  <circle cx="540" cy="250" r="3" class="city"/>
+  <text x="555" y="248" class="city-label" font-size="9">布达</text>
+
+  <!-- Water bodies -->
+  <ellipse cx="500" cy="450" rx="80" ry="40" class="water"/>
+  <text x="500" y="455" text-anchor="middle" font-size="10" fill="#666" font-family="sans-serif">地中海</text>
+
+  <!-- Legend -->
+  <rect x="50" y="500" width="200" height="80" fill="white" stroke="#ccc"/>
+  <rect x="60" y="515" width="20" height="15" class="habsburg"/>
+  <text x="90" y="527" class="legend">哈布斯堡领土</text>
+  <rect x="60" y="540" width="20" height="15" class="land"/>
+  <text x="90" y="552" class="legend">其他欧洲领土</text>
+  <circle cx="70" cy="570" r="3" class="city"/>
+  <text x="90" y="573" class="legend">主要城市</text>
+
+  <!-- North arrow -->
+  <g transform="translate(750,80)">
+    <line x1="0" y1="30" x2="0" y2="-30" stroke="#333" stroke-width="2"/>
+    <polygon points="0,-35 -5,-25 5,-25" fill="#333"/>
+    <text x="0" y="-40" text-anchor="middle" font-size="12" fill="#333" font-family="sans-serif">N</text>
+  </g>
+</svg>

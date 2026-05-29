@@ -30,9 +30,14 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - navigation.path
+    - navigation.footer
+    - navigation.indexes
     - search.suggest
     - search.highlight
+    - search.splitter
     - content.code.copy
+    - content.tooltips
   edit_uri: edit/main/wiki/
 
 plugins:
@@ -41,7 +46,11 @@ plugins:
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.highlight:
@@ -84,9 +93,11 @@ nav:
 
 extra_css:
   - https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css
+  - stylesheets/extra.css
 
 extra_javascript:
   - https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
 
 extra:
   social:
