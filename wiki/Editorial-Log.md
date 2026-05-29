@@ -30,3 +30,7 @@
 | 2026-05-29 | 全部 | Wiki 链接转换：574 处 `[[双链]]` 语法转换为 MkDocs 兼容的 Markdown 链接 | 完成 |
 | 2026-05-29 | — | GitHub Actions 部署：创建 deploy.yml 工作流，自动构建并部署到 GitHub Pages | 完成 |
 | 2026-05-29 | notes/unresolved.md | 待考问题确认：问题 003（heading 格式）和 004（页码/脚注丢失）已确认，列入后续计划 | 完成 |
+| 2026-05-29 | wiki/assets/timeline/ | 交互式时间线：将 Timeline.md 的 146 个事件转换为 TimelineJS JSON 格式 | 完成 |
+| 2026-05-29 | wiki/timeline-interactive.md | 交互式时间线页面：集成 TimelineJS，支持缩放、拖拽、主题颜色区分 | 完成 |
+| 2026-05-29 | wiki/assets/images/ | 历史图片：生成 15 个关键人物 SVG 占位图（鲁道夫一世、查理五世、欧根亲王等） | 完成 |
+| 2026-05-29 | Ch01/Ch04/Ch06/Ch07/Ch09 | 嵌入图片：在 5 个核心章节中嵌入关键人物图片 | 完成 |

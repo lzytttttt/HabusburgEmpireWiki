@@ -67,7 +67,10 @@ years:
 notes: []
 ---
 
-改革和复兴  1740-1815
+![玛丽娅·特蕾莎](../assets/images/maria-theresa.svg){ width="150" title="玛丽娅·特蕾莎 Maria Theresa" }
+![约瑟夫二世](../assets/images/joseph-ii.svg){ width="150" title="约瑟夫二世 Joseph II" }
+
+## 改革和复兴 1740-1815
 
 玛丽娅·特蕾莎
 女大公玛丽娅其人

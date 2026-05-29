@@ -74,12 +74,19 @@ nav:
     - 术语表: Glossary.md
   - 参考:
     - 时间线: Timeline.md
+    - 交互式时间线: timeline-interactive.md
     - 家族世系表: Habsburg-Genealogy.md
     - 战争列表: Wars.md
     - 条约列表: Treaties.md
   - 项目:
     - 待考问题: Open-Questions.md
     - 校订日志: Editorial-Log.md
+
+extra_css:
+  - https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css
+
+extra_javascript:
+  - https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js
 
 extra:
   social:

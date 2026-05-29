@@ -40,7 +40,11 @@ notes: []
 ---
 
 
-关于地名及人名的拼写
+![鲁道夫一世](../assets/images/rudolf-i.svg){ width="150" title="鲁道夫一世 Rudolf I" }
+![马克西米连一世](../assets/images/maximilian-i.svg){ width="150" title="马克西米连一世 Maximilian I" }
+![查理五世](../assets/images/charles-v.svg){ width="150" title="查理五世 Charles V" }
+
+## 关于地名及人名的拼写
 由于多方面的原因，基本上哈布斯堡王朝所统治的每一个城镇、河流以及山脉都有两三
 个甚至更多的别名。为了使读者摆脱困惑，一些变更后的地名，或者说现在继承了原哈
 布斯堡帝国领土的国家所使用的官方名称，将会用括号在后面标注，首都、省份、河流

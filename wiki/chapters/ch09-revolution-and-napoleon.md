@@ -109,7 +109,11 @@ years:
 notes: []
 ---
 
-哈布斯堡帝国与法国大革命
+![弗朗西斯二世](../assets/images/franz-ii.svg){ width="150" title="弗朗西斯二世 Francis II" }
+![梅特涅](../assets/images/metternich.svg){ width="150" title="梅特涅 Metternich" }
+![拿破仑](../assets/images/napoleon.svg){ width="150" title="拿破仑 Napoleon" }
+
+## 哈布斯堡帝国与法国大革命
 大革命带来的挑战
 
 [法国](../Places.md)大革命带来的民主和民族主义思想影响了许多地区，对哈布斯堡的专制统治构成了

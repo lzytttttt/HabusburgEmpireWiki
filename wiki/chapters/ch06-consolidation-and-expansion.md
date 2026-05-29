@@ -90,7 +90,10 @@ years:
 notes: []
 ---
 
-巩固和扩张 1648-1739
+![列奥波德一世](../assets/images/leopold-i.svg){ width="150" title="列奥波德一世 Leopold I" }
+![欧根亲王](../assets/images/eugene.svg){ width="150" title="欧根亲王 Prince Eugene" }
+
+## 巩固和扩张 1648-1739
 
 
 三十年战争的余波
