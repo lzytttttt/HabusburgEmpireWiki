@@ -10,6 +10,9 @@ docs_dir: wiki
 theme:
   name: material
   language: zh
+  icon:
+    logo: material/book-open-page-variant
+    favicon: assets/images/favicon.svg
   palette:
     - scheme: default
       primary: deep purple
