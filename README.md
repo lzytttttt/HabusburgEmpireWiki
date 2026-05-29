@@ -2,9 +2,21 @@
 
 基于玛玛吉（Mamatey, Victor S.）所著 *Rise of the Habsburg Empire, 1526-1851* 中译初稿整理而成的 Markdown wiki。
 
+**在线访问：** [https://lzytttttt.github.io/HabusburgEmpireWiki](https://lzytttttt.github.io/HabusburgEmpireWiki)
+
 ## 关于本书
 
 本书是一部关于哈布斯堡帝国（1526-1851）的历史著作，涵盖从莫哈奇之战到维也纳会议的三百年历史。原书以英文写成，本项目基于其中译初稿进行 wiki 化整理，旨在以结构化、可链接的方式呈现这段中欧历史。
+
+## 特性
+
+- **9 个章节** — 完整覆盖 1526-1815 年哈布斯堡帝国历史
+- **180+ 人物索引** — 按历史时期分组，含人物关系
+- **210+ 地名索引** — 按地理区域分组，标注现代名称
+- **交互式时间线** — 基于 TimelineJS，146 个重大事件，支持缩放拖拽
+- **Mermaid 关系图** — 家族世系图、战争因果图、改革措施图
+- **历史疆域地图** — 1526、1648、1789 三个时期的 SVG 地图
+- **术语表** — 制度法令、政治概念、宗教术语、军事术语
 
 ## Wiki 结构
 
@@ -28,7 +40,8 @@
 - **[地名索引](wiki/Places.md)** — 按地理区域分组，收录 210+ 个地名
 - **[术语表](wiki/Glossary.md)** — 制度法令、政治概念、宗教术语、军事术语
 - **[时间线](wiki/Timeline.md)** — 重大事件按时间排序，标记战争/改革/外交/宗教主题
-- **[哈布斯堡家族世系表](wiki/Habsburg-Genealogy.md)** — 家族世系、联姻与格言
+- **[交互式时间线](wiki/timeline-interactive.md)** — TimelineJS 呈现，支持缩放拖拽
+- **[哈布斯堡家族世系表](wiki/Habsburg-Genealogy.md)** — Mermaid 世系图 + 家族联姻与格言
 - **[战争列表](wiki/Wars.md)** — 约 40 场战争与战役
 - **[条约列表](wiki/Treaties.md)** — 约 40 项条约与和约
 
@@ -37,11 +50,23 @@
 - **[待考问题](wiki/Open-Questions.md)** — 校对中发现的存疑之处
 - **[校订日志](wiki/Editorial-Log.md)** — 整理工作记录
 
+## 技术栈
+
+- **MkDocs Material** — 静态站点生成器，中文语言支持
+- **TimelineJS v3** — 交互式时间线
+- **Mermaid.js** — 关系图/流程图
+- **GitHub Pages** — 自动部署（GitHub Actions）
+
 ## 文件结构
 
 ```
 wiki/                   ← Markdown wiki 主目录
   chapters/             ← 9 个章节页面
+  assets/
+    images/             ← 历史人物 SVG 占位图（15 张）
+    maps/               ← 疆域变化 SVG 地图（3 张）
+    timeline/           ← TimelineJS JSON 数据
+  stylesheets/          ← 自定义 CSS
   Home.md               ← Wiki 首页
   People.md             ← 人物索引
   Places.md             ← 地名索引
@@ -52,26 +77,19 @@ wiki/                   ← Markdown wiki 主目录
   Treaties.md           ← 条约列表
   Open-Questions.md     ← 待考问题
   Editorial-Log.md      ← 校订日志
-manuscript/original/    ← 原始文稿（只读）
-manuscript/working/     ← 工作副本
+mkdocs.yml              ← MkDocs 配置
+scripts/                ← 自动化脚本
 notes/                  ← 工作笔记、校对规则
 ```
 
-## Wiki 链接语法
+## 本地运行
 
-页面之间使用 `[[页面名]]` 格式进行内部链接：
+```bash
+pip install mkdocs-material
+mkdocs serve
+```
 
-- `[[People|人名]]` — 链接到人物索引
-- `[[Places|地名]]` — 链接到地名索引
-- `[[Glossary|术语]]` — 链接到术语表
-- `[[chapters/ch01-name|章节标题]]` — 链接到章节页面
-
-## 工作原则
-
-- 原始文稿永不修改
-- 校对在工作副本中进行，不改动原意
-- 术语统一以 `notes/style-guide.md` 为准
-- 不确定之处标记为 `TODO` 并记录到待考问题
+访问 http://127.0.0.1:8000 预览。
 
 ## 许可证
 
