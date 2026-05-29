@@ -10,3 +10,7 @@ node_modules/
 .cache/
 dist/
 public/
+site/
+
+# OMC 内部状态
+.omc/
